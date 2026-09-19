@@ -4,44 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azure</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/jquery-4.0.0.min.js"></script>
+    <script>
+        $(function(){
+            $(".header").load("header.html");
+            $(".featured").load("featured.html");
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <div>
-            <div class="headerDropdown">home
-                <div class="headerDropdownContent">
-                    <div>test01</div>
-                    <div>test02</div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="featureWindow">
-        <h1>featured</h1>
-        <div class="block"></div>
-        <div class="features">
-            <div class="featuresImageContainer">
-                <img src="images/Image-not-found.png" alt="No Image">
-                <p>test</p>
-            </div>
-            <div class="featuresImageContainer">
-                <img src="images/Image-not-found.png" alt="No Image">
-                <p>test</p>
-            </div>
-            <div class="featuresImageContainer">
-                <img src="images/Image-not-found.png" alt="No Image">
-                <p>test</p>
-            </div>
-            <div class="featuresImageContainer">
-                <img src="images/Image-not-found.png" alt="No Image">
-                <p>test</p>
-            </div>
-            <div class="featuresImageContainer">
-                <img src="images/Image-not-found.png" alt="No Image">
-                <p>test</p>
-            </div>
-        </div>
-    </section>
+    <div class="header"></div>
+    <div class="featured"></div>
+    <div class="featured"></div>
+    <div class="featured"></div>
 </body>
 </html>
