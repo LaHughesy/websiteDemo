@@ -16,6 +16,10 @@ header {
     align-content: center;
 }
 
+header .headerLink{
+    color: azure;
+}
+
 header .headerDropdown{
     position: relative;
     margin-left: 5px;
