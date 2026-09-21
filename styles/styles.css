@@ -10,6 +10,8 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+/* HEADER */
+
 header {
     background-color: black;
     height: 50px;
@@ -42,6 +44,8 @@ header .headerDropdownContent{
     display: inline-block;
     margin-inline-start: 15px;
 }
+
+/* FEATURED */
 
 .featureWindow {
     position: relative;
